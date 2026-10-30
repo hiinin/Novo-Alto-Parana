@@ -1,0 +1,71 @@
+.controleBanner {
+    padding-top: 1rem;
+}
+.containerBanner {
+    padding: 0;
+}
+.fundoBanner {
+    background-image: url(../../images/fundo_banner.svg);
+    padding: 2rem;
+    height: auto;
+}
+.carousel-inner > .item > a > .imgBanner {
+    height: 348px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    object-fit: fill;
+    border-radius: 20px;
+}
+
+.seta_esquerda,
+.seta_direita {
+    background: transparent;
+    top: 50%;
+    bottom: 0;
+    width: 7%;
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    height: 0;
+    opacity: 1;
+}
+.imgSetas1 {
+    right: 100%;
+    position: relative;
+}
+.imgSetas2 {
+    left: 100%;
+    position: relative;
+}
+#controll_banner {
+    border-radius: 25px;
+    filter: drop-shadow(0px 5px 7px #000);
+}
+@media (max-width: 1300px) {
+    .fundoBanner {
+        padding: 2rem 1rem;
+    }
+    .imgSetas1 {
+        right: auto;
+    }
+    .imgSetas2 {
+        left: auto;
+    }
+}
+@media (max-width: 768px) {
+    .fundoBanner {
+        padding: 2rem 0rem;
+    }
+    .carousel-inner > .item > a > .imgBanner {
+        object-fit: scale-down;
+        height: auto;
+    }
+    .carousel-control {
+        display: none;
+    }
+    #controll_banner {
+        padding: 0 1rem;
+    }
+}

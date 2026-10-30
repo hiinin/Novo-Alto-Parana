@@ -1,0 +1,95 @@
+.navbar-lateral {
+    position: fixed;
+    left: 18rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 50px;
+    height: 192px;
+    padding: 8px 0;
+    background-color: #EEF3F7;
+    border-radius: 7px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.navbar-lateral--visible {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.navbar-lateral__item {
+    position: relative;
+    /* referência para posicionar o label */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.navbar-lateral__item img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    object-fit: contain;
+}
+
+.navbar-lateral__item:hover {
+    background-color: rgba(32, 113, 177, 0.12);
+    transform: scale(1.15);
+}
+
+.navbar-lateral__item:active {
+    transform: scale(0.95);
+    transition-duration: 0s;
+}
+
+/* Label: escondido por padrão, aparece como tooltip no hover/foco */
+.navbar-lateral__label {
+    position: absolute;
+    left: calc(100% + 12px);
+    top: 50%;
+    transform: translateY(-50%) translateX(-6px);
+    white-space: nowrap;
+    padding: 6px 10px;
+    background-color: #2d3a4a;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.2;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+.navbar-lateral__item:hover .navbar-lateral__label,
+.navbar-lateral__item:focus-visible .navbar-lateral__label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}
+
+@media screen and (max-width: 1880px) {
+    .navbar-lateral {
+        left: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-lateral {
+        display: none;
+    }
+}

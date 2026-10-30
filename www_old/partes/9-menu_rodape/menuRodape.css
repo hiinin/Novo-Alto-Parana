@@ -1,0 +1,209 @@
+.horario{
+  text-align: center;
+  font: normal normal normal 15px/15px Fira Sans;
+  letter-spacing: 1.3px;
+  color: #000000;
+  opacity: 1;
+  line-height: 50px;
+}
+
+.div-menu-rodape.acessibilidade1{
+  background-color: #003766;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fonte-horario{
+  text-align: center;
+    font: normal normal normal 15px/41px Fira Sans;
+    letter-spacing: 1.13px;
+    color: #003766;
+}
+
+.div-horario-atendimento{
+  background-color: #E6E6E6;
+}
+
+.div-menu-rodape {
+  border-top: 1px solid rgba(113, 111, 98, 0.5);
+}
+
+.rodape {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: baseline;
+}
+.titulo-ser ul{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.btn-rodape{
+  border: 1px solid #707070 !important;
+  background-color: #003766;
+  width: 136px;
+  text-align: inherit;
+}
+
+.div-endereco-rodape {
+  /* margin-top: 25%; */
+  font-size: 14px;
+}
+
+.div-telefone-rodape , .div-atendimento-rodape{
+  margin-top: 7%;
+  font-size: 14px;
+}
+
+/* .div-menu-rodape .div-menus {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.div-menu-rodape .div-menu {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+}
+
+.menu-baixo{
+  display: grid;
+    display: grid;
+    grid-template-areas:
+      "municipio links links links canais atendimento";
+  font: normal normal normal 12px/16px Roboto;
+}
+
+.div-menu-rodape h5 {
+  font: normal normal 900 14px/19px Segoe UI;
+  color: #fff;
+}
+
+.municipio{
+  width: auto!important;
+}
+
+.btn-solicitacao{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  font: normal normal normal 9px/16px Roboto;
+  letter-spacing: 0px;
+  color: #003766;
+  opacity: 1;
+}
+
+.links{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.canais{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+
+
+.titulo-municipio{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+/* .btn{
+    border: 1px solid #707070 !important;
+    background-color: #003766;
+    width: 136px;
+    text-align: inherit;
+} */
+
+.div-endereco-rodape{
+  grid-area: endereco;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.box-logo-baixo{
+  grid-area: logo-baixo;
+
+}
+
+.endereco-baixo{
+  display: grid;
+  grid-template-areas:
+    "logo-baixo endereco endereco endereco";
+}
+
+.box-logo-baixo {
+  padding: 8px 0;
+}
+
+.div-logo-baixo{
+  display: flex;
+  align-items: center;
+}
+
+.div-logo-baixo img{
+  width: 312px;
+}
+.box-topo{
+  text-align: left;
+  font: normal normal 300 13px/21px Roboto;
+  letter-spacing: 0px;
+  color: #003766;
+  opacity: 1;
+}
+.box-links{
+  grid-area: links;
+  border-left: 1px solid #707070;
+}
+
+.box-canais{
+  grid-area: canais;
+  border-right: 1px solid #707070;
+}
+
+.box-atendimento{
+  grid-area: atendimento;
+  justify-items: center;
+  display: grid;
+}
+
+.municipio{
+  grid-area: municipio;
+  justify-items: center;
+  display: grid;
+}
+
+.fundoBanner{
+  background-color: #F3F3F3;
+}
+
+.div-menu-rodape a {
+  text-align: center;
+  font: normal normal normal 9px/16px Roboto;
+  letter-spacing: 0px;
+  color: #003766;
+  opacity: 1;
+}
+
+.img-logo-rodape{
+  width: 94%;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+
+.left-detail {
+  width: 1133px;
+  height: 252px;
+  background: #68675B 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 252px 0px;
+  width: 42%;
+}

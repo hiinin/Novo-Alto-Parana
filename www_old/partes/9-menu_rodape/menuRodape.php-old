@@ -1,0 +1,112 @@
+<div class="div-horario-atendimento">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm horario">
+        <p>Hor&aacute;rio de Atendimento: <?= $configuracao['horario_atendimento'] ?></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="div-menu-rodape acessibilidade1">
+  <div class="container">
+    <div class="menu-baixo">
+      <div class="col-sm-2 municipio">
+        <div class="titulo-municipio">
+          <h5>MUNIC&Iacute;PIO</h5>
+        </div>
+        <?php
+        $qryNossaCidade = mysql_query("SELECT * 
+                                                FROM pref_nossa_cidade 
+                                                WHERE id_cliente = '$cliente' 
+                                                AND status_registro = 'A' 
+                                                ORDER BY nome_menu");
+        while ($menuNossaCidade = mysql_fetch_assoc($qryNossaCidade)) {
+        ?>
+          <a href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $nossacidade . $complemento); ?>&id=<?= $menuNossaCidade['id'] ?>"><?= $menuNossaCidade['nome_menu']; ?></a>
+        <?php
+        }
+        ?>
+        <a class="acessibilidade" href="<?= $CAMINHO ?>index.php?sessao=b054603368ppb0">Galeria de Fotos</a>
+      </div>
+
+      <div class="col-sm-2 gestao">
+        <div class="titulo-gestao">
+          <h5>GEST&Atilde;O ATUAL</h5>
+        </div>
+        <a href="<?= $CAMINHO ?>index.php?sessao=<?= verifica($sequencia . $gestaoatual . $complemento); ?>">Conhe&ccedil;a o Prefeito</a>
+        <a href="<?= $CAMINHO ?>index.php?sessao=<?= verifica($sequencia . $visualizarVereadores . $complemento); ?>">Composi&ccedil;&atilde;o da C&acirc;mara</a>
+        <a href="<?= $CAMINHO ?>index.php?sessao=<?= verifica($sequencia . $galeriaPrefeito . $complemento); ?>">Galeria de Prefeitos</a>
+        <a href="<?= $CAMINHO ?>index.php?sessao=b054603368d0b0">Nosso Compromisso</a>
+      </div>
+
+      <div class="col-sm-2 secretarias">
+        <div class="titulo-sec">
+          <h5>SECRETARIAS</h5>
+        </div>
+        <?php
+        $qrySecretaria = mysql_query("SELECT * 
+                                                  FROM pref_secretaria 
+                                              WHERE id_cliente = '$cliente' 
+                                                  AND status_registro = 'A' 
+                                              ORDER BY nome_menu");
+        while ($menuSecretaria = mysql_fetch_assoc($qrySecretaria)) {
+        ?>
+          <a href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $secretariaVisualiza . $complemento); ?>&id=<?= $menuSecretaria['id'] ?>"><?= $menuSecretaria['nome_menu']; ?></a>
+        <?php
+        }
+        ?>
+      </div>
+
+      <div class="col-sm-2 servicos">
+        <div class="titulo-ser">
+          <h5>SERVI&Ccedil;OS</h5>
+          <ul>
+            <?php
+            $qryServico = mysql_query("SELECT * FROM pref_menu_modelo WHERE id IN (SELECT id_menu FROM pref_menu_site WHERE id_cliente = '$cliente' AND status = 'Ativado')");
+            while ($servico = mysql_fetch_assoc($qryServico)) {
+              array_push($servicos, $servico);
+            ?>
+              <li>
+                <a class="acessibilidade txt-menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico['link'] . $complemento); ?>"><?= $servico['menu']; ?></a>
+              </li>
+            <?php
+            }
+            $qryServico2 = mysql_query("SELECT * FROM pref_submenu_modelo WHERE id IN (SELECT id_submenu FROM pref_submenu_site WHERE id_cliente = '$cliente' AND status = 'Ativado')");
+            while ($servico2 = mysql_fetch_assoc($qryServico2)) {
+              array_push($servicos, $servico2);
+            ?>
+              <li>
+                <a class="acessibilidade txt-menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico2['link'] . $complemento); ?>"><?= $servico2['menu']; ?></a>
+              </li>
+            <?php
+            }
+            $qryServico3 = mysql_query("SELECT * FROM pref_menu_auxiliar WHERE id_cliente = '$cliente' AND status_registro = 'A'");
+            while ($servico3 = mysql_fetch_assoc($qryServico3)) {
+              array_push($servicos, $servico3);
+            ?>
+              <li>
+                <a class="acessibilidade txt-menu" href="<?= $servico3['link'] ?>" target="_blank"> <?= $servico3['menu']; ?></a>
+              </li>
+            <?php
+            }
+            ?>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="div-menu-dropdown">
+          <div class="titulo-sec"><a href="#">
+              <h5>IMPRENSA</h5>
+            </a></div>
+          <div class="titulo-sec"><a href="https://saocarlosdoivai.pr.gov.br:2096/" target="_blank">
+              <h5>WEBMAIL</h5>
+            </a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

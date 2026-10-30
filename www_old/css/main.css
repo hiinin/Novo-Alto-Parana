@@ -1,0 +1,32 @@
+@import url("../partes/01-topo/topo.css");
+@import url("../partes/02-logo/logoMenu.css");
+@import url("../partes/03-menu-topo/menu.css");
+@import url("../partes/04-menu-icones/menuIcones.css");
+@import url("../partes/05-banner/banner.css");
+@import url("../partes/06-noticias/noticias.css");
+@import url("../partes/07-ultimasNoticias/ultimas.css");
+@import url("../partes/08-horarioAtendimento/informacoes-rodape.css");
+@import url("../partes/09-menuRodape/menuRodape.css");
+@import url("../partes/10-rodape/rodape.css");
+@import url("../partes/11-botaoLateral/botaoLateral.css");
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:900|Candal|Roboto:700,300&display=swap');
+
+:root {
+  /* --main-color: #d3d3d3; */
+  --main-color: #002682;
+}
+body {
+  padding: 0px !important;
+}
+@font-face {
+
+  font-family: "Segoe UI";
+
+  src: url('font/segoe-ui.otf') format("opentype");
+
+}

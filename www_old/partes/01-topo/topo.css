@@ -1,0 +1,383 @@
+header {
+  background: #0339A6;
+}
+
+.topo {
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.topo .row {
+  height: 50px;
+}
+
+.topo .row::after,
+.topo .row::before {
+  display: none;
+}
+
+.acessibilidade-topo {
+  display: grid;
+  grid-template-columns: 8% 4% 5% 11%;
+  justify-content: end;
+  align-items: center;
+
+  font: normal normal 300 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+
+  padding: 20px 0px 0px 0px;
+}
+
+.acessibilidade-topo button {
+  border: none;
+  background: transparent;
+}
+
+.font-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contraste-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.btn-contraste {
+  padding: 1px 1px 1px 1px;
+}
+
+.acessibilidade-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.acessibilidade-icon .fa {
+  font-size: 18px;
+  padding-left: 1rem;
+}
+
+.location {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1rem;
+}
+
+.location .fa {
+  font-size: 18px;
+  padding-right: 0.5rem;
+}
+
+.location::before {
+  content: "";
+  height: 10px;
+  border-right: 1px solid #5e73a1;
+  position: absolute;
+  top: 2px;
+  right: 7%;
+}
+
+.location-acessibilidade::before {
+  content: "";
+  height: 10px;
+  border-right: 1px solid #fff;
+  position: absolute;
+  top: 28px;
+  right: 32.5%;
+}
+
+.location-AB::before {
+  content: "";
+  height: 10px;
+  border-right: 1px solid #fff;
+  position: absolute;
+  top: 28px;
+  right: 26.1%;
+}
+
+.logo {
+  margin-top: 21px;
+}
+
+.libras-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group-addon,
+#ipt-pesquisa {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: 0px 1px 1px #00000029;
+  height: 44px;
+}
+
+.topo .overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.topo .overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.topo .overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #01359e;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topo .overlay input[type="text"] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.topo .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropVlibras-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 20%);
+  z-index: 99;
+}
+
+.dropVlibras-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.infoVlibras {
+  text-align: center;
+  margin: 3px 0 0 0;
+}
+
+.dropVlibras-content a {
+  color: black;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: auto;
+}
+
+.dropVlibras {
+  position: relative;
+  display: inline-block;
+}
+
+.dropVlibras:hover .dropVlibras-content {
+  display: block;
+}
+
+.dropVlibras-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 20%);
+  z-index: 99;
+}
+
+.dropVlibras-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.infoVlibras {
+  text-align: center;
+  margin: 3px 0 0 0;
+}
+
+@media (max-width: 1280px) {
+  .location-AB::before {
+    right: 14.4%;
+  }
+
+  .location-acessibilidade::before {
+    right: 23.7%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .acessibilidade-topo {
+    grid-template-columns: 10% 6% 8% 13%;
+  }
+
+  .location-AB::before {
+    right: 15.4%;
+  }
+
+  .location-acessibilidade::before {
+    right: 29.7%;
+  }
+}
+
+@media (max-width: 912px) {
+  .acessibilidade-topo {
+    grid-template-columns: 10% 6% 8% 16%;
+  }
+
+  .location-AB::before {
+    right: 22.6%;
+  }
+
+  .location-acessibilidade::before {
+    right: 34.7%;
+  }
+}
+
+@media (max-width: 820px) {
+  .acessibilidade-topo {
+    grid-template-columns: 12% 7% 8% 16%;
+  }
+
+  .location-AB::before {
+    right: 19.5%;
+  }
+
+  .location-acessibilidade::before {
+    right: 33.9%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 730px;
+  }
+
+  .acessibilidade-topo {
+    grid-template-columns: 12% 7% 8% 17%;
+  }
+
+  .location-AB::before {
+    right: 17.5%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+  .acessibilidade-topo {
+    grid-template-columns: 16% 9% 8% 26%;
+  }
+  .location-acessibilidade::before {
+    right: 45%;
+  }
+  .location-AB::before {
+    right: 26.5%;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 380px;
+  }
+  .acessibilidade-topo {
+    grid-template-columns: 22% 10% 8% 31%; 
+  }
+  .location-acessibilidade::before {
+    right: 52.4%;
+  }
+  .location-AB::before {
+    right: 30.5%;
+  }
+}
+
+@media (max-width: 393px) {
+  .container {
+    width: 340px;
+  }
+  .acessibilidade-topo {
+    grid-template-columns: 22% 12% 9% 36%;
+  }
+  .location-acessibilidade::before {
+    right: 59.4%;
+  }
+  .location-AB::before {
+    right: 35.5%;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 300px;
+  }
+  .acessibilidade-topo {
+    grid-template-columns: 22% 12% 9% 38%;
+  }
+  .location-acessibilidade::before {
+    right: 61.4%;
+  }
+  .location-AB::before {
+    right: 37.5%;
+  }
+}
+
+@media (max-width: 280px) {
+  .container {
+    width: 240px;
+  }
+  .acessibilidade-topo {
+    grid-template-columns: 22% 17% 16% 45%;
+  }
+  .location-acessibilidade::before {
+    right: 78.4%;
+  }
+  .location-AB::before {
+    right: 45.5%;
+  }
+}
+

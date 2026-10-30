@@ -1,0 +1,23 @@
+.cor-fundo-rodape {
+  background: #0339A6;
+}
+
+.atualizacao-rodape {
+  text-align: left;
+  font: normal normal normal 12px/21px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.atualiza-rodape {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) !important;
+  padding: 18px 0px;
+  align-items: center;
+  border-top: solid 1px #51A66F;
+}
+
+.logo-inga {
+  writing-mode: vertical-rl;
+}

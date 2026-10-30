@@ -1,0 +1,21 @@
+.fundo-rodape-info {
+  background: #0339A6;
+}
+
+.infomacoes-rodape span {
+  text-align: center;
+  font: normal normal 600 14px/18px Montserrat;
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.infomacoes-rodape {
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: solid 1px #51A66F;
+  opacity: 1;
+  
+}

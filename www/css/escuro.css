@@ -1,0 +1,7 @@
+body {
+  filter: grayscale(1);
+}
+
+img {
+  filter: invert(1);
+}

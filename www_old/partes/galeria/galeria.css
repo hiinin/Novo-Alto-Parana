@@ -1,0 +1,168 @@
+.div-galeria {
+  background: #e9e9e9;
+  padding: 68px -14px -20px 26px;
+  height: 384px;
+  padding-bottom: 419px;
+}
+
+.div-galeria p {
+  padding-top: 4%;
+}
+
+.div-galeria span {
+  padding-top: 4%;
+}
+
+.div-galeria .div-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div-galeria .div-h1 {
+  font-family: Candal;
+  color: #AF4614;
+  margin: 37px 0 17px 0;
+  text-align: center;
+}
+
+.div-galeria .div-blocos-galeria {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div-galeria a {
+  text-decoration: none;
+}
+
+.div-galeria .div-bloco {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-family: Raleway;
+  color: #4C5C68;
+  margin-top: 20px;
+  width: 270px;
+}
+
+.div-galeria .div-bloco img {
+  height: 290px;
+  width: 250px;
+}
+
+.div-galeria .div-p {
+  height: 75px;
+  padding: 14px 0 10px 0;
+  font-size: 16px;
+}
+
+.div-obra{
+  width: 252px;
+  height: 307px;
+}
+
+.card-video{
+  background-color: #118AB2;
+  text-align: center;
+  font: Black 21px/25px Raleway;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  height: 53px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.card-obra{
+  background-color: #AF4614;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  height: 53px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.card-evento{
+  background-color:#AA1656;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  height: 53px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.card-audio{
+  background-color:#2680EB;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  height: 53px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.div-obra .carousel-control {
+  display: flex;
+  color: white;
+  background: transparent;
+  opacity: 1;
+  justify-content: center;
+  margin-bottom: -10%;
+  margin-top: 103%;
+  padding: 0% 42% 0% 42%;
+}
+
+.div-obra .div-icon-banner i {
+  background: #4c5c68;
+  height: 33px;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 28px;
+}
+
+.carousel-galeria {
+  right: 15%;
+  bottom: 20px;
+  color: #000000;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+}
+
+@media (min-width: 1023px) {
+  .div-galeria .div-carousel{
+    flex-wrap: unset !important;
+  }
+}
+
+@media (max-width: 360px){
+  .div-carousel {
+    justify-content: center !important;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .div-galeria .div-blocos-galeria {
+    justify-content: space-around;
+  } 
+  .div-galeria .div-carousel{
+    justify-content: center !important;
+  }
+  .div-obra{
+    height: 326px !important;
+  }
+}

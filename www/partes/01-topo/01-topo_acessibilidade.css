@@ -1,0 +1,113 @@
+.fundo_topo {
+    background: #2071b1;
+    height: auto;
+    padding: 1rem;
+}
+
+.container_topo {
+    padding: 0;
+}
+
+.controle_topo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.link_acess {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    align-items: center;
+}
+.t_acessi {
+    font: normal normal 300 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    margin: 0;
+    transition: all 0.3s;
+}
+.t_acessi:hover {
+    filter: drop-shadow(1px 1px 6px #fff);
+}
+
+.traco {
+    background: #ffffff7d;
+    height: 9px;
+    width: 1px;
+}
+/* AJUSTE V-LIBRAS */
+.dropVlibras-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 20%);
+    z-index: 99;
+    width: 150px;
+}
+
+.dropVlibras-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.infoVlibras {
+    text-align: center;
+    margin: 3px 0 0 0;
+}
+
+.dropVlibras-content a {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: auto;
+}
+
+.dropVlibras {
+    position: relative;
+    display: inline-block;
+}
+
+.dropVlibras:hover .dropVlibras-content {
+    display: block;
+}
+
+.dropVlibras-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 20%);
+    z-index: 99;
+}
+
+.dropVlibras-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.infoVlibras {
+    text-align: center;
+    margin: 3px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .controle_topo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

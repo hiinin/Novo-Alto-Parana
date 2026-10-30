@@ -1,0 +1,298 @@
+.lista-item-acesso {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.lista-item-acesso .nav-tabs>li.active>a,
+.lista-item-acesso .nav-tabs>li.active>a:focus,
+.lista-item-acesso .nav-tabs>li.active>a:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #004181;
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+  text-transform: uppercase;
+
+  text-align: center;
+  font: normal normal bold 17px/35px Roboto;
+  letter-spacing: -0.22px;
+  color: #0339A6;
+}
+
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -2px;
+}
+
+.lista-item-acesso .nav-tabs>li>a {
+  width: 270px;
+  height: 50px;
+}
+
+.lista-item-acesso .nav-tabs>li.active>a, .lista-item-acesso .nav-tabs>li.active>a:focus, .lista-item-acesso .nav-tabs>li.active>a:hover {
+  width: 270px;
+  height: 50px;
+}
+
+.lista-item-acesso .nav-tabs>li>a {
+  text-align: center;
+  font: normal normal bold 17px/35px Roboto;
+  letter-spacing: -0.18px;
+  margin-right: 8px;
+  line-height: 1.42857143;
+  border: 2px solid #C2C2C2;
+  border-radius: 8px 8px 0 0;
+  color: #0339A6;
+  text-transform: uppercase;
+  border-bottom: 0.30000001192092896px solid #004181;
+}
+
+.lista-item-acesso .nav-tabs {
+  border-bottom: 2px solid #0339A6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-content>.active {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px 31px 0px;
+}
+
+.icone-acesso-centro {
+  box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #0339a663;
+  border-radius: 8px;
+  height: 89px;
+  width: 130px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.icone-acesso-centro .figure-caption {
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  margin-top: 15px;
+}
+
+.icone-acesso-centro img {
+  height: 36px;
+}
+
+.icone-acesso-centro a {
+  width: 100%;
+  height: inherit;
+  text-decoration: none;
+}
+
+.icone-acesso-centro:hover {
+  background-color: #E2E2E2;
+}
+
+.icone-acesso-centro a figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: inherit;
+}
+
+
+#centro-cor:hover{
+  filter: hue-rotate(256deg) brightness(100%) contrast(100%);
+}
+
+@media (max-width: 1280px) {
+  .nav-tabs>li {
+    margin-bottom: -2px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 270px;
+    height: 50px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 270px;
+  }
+
+  .icone-acesso-centro:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lista-item-acesso .tab-pane {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem 1rem;
+    padding: 5px 5px 0px 20px;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 200px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 200px;
+  }
+
+  .icone-acesso-centro:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 912px) {
+  .lista-item-acesso .tab-pane {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px 5px 0px 50px;
+  }
+
+  .lista-item-acesso .nav-tabs {
+    border-bottom: 2px solid #0339A6;
+  }
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    border: 2px solid #004181;
+    border-bottom: 0px solid;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    border-bottom: 0px solid #004181;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 196.2px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 196.2px;
+  }
+
+  .lista-item-acesso .tab-pane {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tab-content {
+    background-color: #FFFF;
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 136.2px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 136.2px;
+  }
+
+  .lista-item-acesso .tab-pane {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .lista-item-acesso .tab-pane {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .nav>li>a {
+    padding: 5px 0px 5px 0px !important;
+  }
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 130px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 130px;
+  }
+}
+
+@media (max-width: 414px) {
+  .lista-item-acesso .tab-pane {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .icone-acesso-centro {
+    width: 110px;
+  }
+
+  .nav-tabs li {
+    width: 120px !important;
+  }
+
+  .lista-item-acesso .nav-tabs>li.active>a,
+  .lista-item-acesso .nav-tabs>li.active>a:focus,
+  .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 110px;
+  }
+
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .icone-acesso-centro {
+    width: 90px;
+  }
+}
+
+@media (max-width: 280px) {
+  .lista-item-acesso .tab-pane {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 0px 0px 20px;
+  }
+  .nav-tabs li {
+    width: 80px !important;
+  }
+  .lista-item-acesso .nav-tabs>li.active>a, .lista-item-acesso .nav-tabs>li.active>a:focus, .lista-item-acesso .nav-tabs>li.active>a:hover {
+    width: 80px;
+  }
+  .nav-tabs li {
+    width: 80px !important;
+  }
+  .lista-item-acesso .nav-tabs>li>a {
+    width: 80px;
+  }
+}

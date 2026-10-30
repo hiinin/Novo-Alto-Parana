@@ -1,0 +1,253 @@
+.corrupcao_logo img {
+  float: right;
+  width: 80px;
+  position: relative;
+  top: 25px;
+}
+
+.nav-menu-responsivo {
+  width: 100%;
+  padding-top: 89px;
+  align-items: center;
+  text-align: center;
+}
+.nav-menu-responsivo .ul-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: baseline;
+}
+.tamanho {
+  text-align: center;
+  color: #003766;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.icons-ul{
+  color: #003766 !important;
+}
+
+.nav-menu-responsivo .ul-menu .li-menu {
+  font-size: 12px;
+  cursor: pointer;
+  right: 30px;
+  position: relative;
+}
+
+.nav-menu-responsivo .ul-menu .li-menu .icons-ul {
+  font-size: 20px;
+}
+
+.nav-menu-responsivo .ul-menu .li-menu button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.nav-menu-responsivo .ul-menu-responsivo {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.nav-menu-responsivo .ul-menu-responsivo .li-menu-responsivo {
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.tamanho{
+  
+}
+.nav-menu-responsivo .ul-menu-responsivo .li-menu-responsivo a{
+  color: #003766;
+}
+
+.nav-menu-responsivo .ul-menu .li-menu a{
+  color: #003766;
+}
+
+.dropdown-menu>li>a{
+  color: #333 !important;
+}
+
+.dpdown-font{
+  font: 300 16px 'Fira Sans Extra Condensed';
+  width: 100% !important;
+  height: 80%;
+  text-align: initial;
+  display: flex;
+  align-items: center;
+  font-weight: 300!important;
+}
+
+.nav-menu-responsivo .ul-menu-responsivo .li-menu-responsivo i {
+  font-size: 14px;
+}
+
+.nav-menu-responsivo .ul-menu-responsivo .ul-submenu-responsivo {
+  list-style: none;
+  padding: 0px 10px;
+  min-width: 155px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  z-index: 3;
+  background: white;
+  /* margin-top: 10px; */
+}
+
+.nav-menu-responsivo .li-submenu:nth-child(1){
+  margin-top: 10px;
+}
+
+.nav-menu-responsivo .li-submenu {
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  transition: height 0.2s;
+  padding: 0 6px;
+}
+
+.nav-menu-responsivo .li-submenu:hover {
+  background-color: #f2f2f2;
+}
+
+.nav-menu-responsivo .li-menu-responsivo:hover > .ul-submenu-responsivo .li-submenu {
+  height: 30px;
+  min-width: 260px;
+}
+
+.nav-menu-responsivo #button-menu-responsivo {
+  display: none;
+}
+
+.nav-menu-responsivo .div-logo-responsivo {
+  display: none;
+}
+
+.nav-menu-responsivo .a-submenu{
+  width: 100% !important;
+  height: 80%;
+  text-align: initial;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px){
+  .nav-menu-responsivo #button-menu-responsivo {
+    display: block;
+  }
+
+  .nav-menu-responsivo #button-menu-home {
+    display: none;
+  }
+
+  .nav-menu-responsivo .ul-menu {
+    justify-content: space-between;
+  }
+
+  .nav-menu-responsivo .div-menu-responsivo {
+    position: fixed;
+    top: 0;
+    left: -550px;
+    color: black;
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    min-width: 190px;
+    z-index: 3;
+    overflow-y: hidden;
+    transition: left 0.4s;
+    margin-left: -40px;
+  }
+
+  h6 {
+    font-size: 12px !important;
+  }
+  .div-logo-nome-menu h6 {
+    font-size: 9px !important;
+  }
+  .nav-menu-responsivo .ul-menu-responsivo {
+    flex-direction: column;
+  }
+
+  .nav-menu-responsivo .li-menu-responsivo {
+    padding: 10px;
+  }
+
+  .nav-menu-responsivo .li-menu-responsivo i {
+    float: right;
+  }
+
+  .nav-menu-responsivo .ul-menu-responsivo .ul-submenu-responsivo {
+    position: relative;
+    background: transparent;
+  }
+
+  .li-menu-responsivo:hover > .ul-submenu-responsivo .li-submenu {
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: lightgray;
+    margin: 10px 0;
+  }
+
+  .nav-menu-responsivo .li-submenu:hover {
+    background-color: transparent;
+  }
+
+  #div-opacity {
+    display: none;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0,0.8);
+    z-index: 2;
+  }
+
+  .nav-menu-responsivo .div-logo-responsivo {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-top: 23px;
+    background-color: #fff;
+  }
+  .div-menu-responsivo{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-menu-responsivo .button-search-menu {
+    position: absolute;
+  }
+}
+
+.conteudo-pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  .corrupcao_logo img{
+    top: 0px;
+  }
+  .nav-menu-responsivo .ul-menu .li-menu {
+    right: 100px;
+    top: -40px;
+  }
+}
+
+

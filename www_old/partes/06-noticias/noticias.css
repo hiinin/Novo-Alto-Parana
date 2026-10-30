@@ -1,0 +1,241 @@
+.div-noticias {
+  background-color: #ffffff;
+  padding: 10px 0px 70px 0px;
+
+}
+
+.div-h1 {
+  padding: 0px 0px 40px 0px;
+}
+
+.div-noticias .carousel {
+  margin: 0;
+}
+
+.div-noticias .carousel-inner {
+  height: auto;
+}
+
+.div-noticias h1 {
+  text-align: center;
+  font: normal normal 800 38px/38px Poppins;
+  letter-spacing: 1.9px;
+  color: #0339A6;
+}
+
+.div-noticias h1 span {}
+
+.div-noticias .div-bloco-noticias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div-noticias .div-destaque {
+  width: 740px;
+}
+
+.div-noticias .div-outras {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div-noticias .bloco-outras {
+  width: 357px;
+  height: 240px;
+}
+
+.div-noticias .bloco-outras a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.div-noticias .bloco-outras a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  padding-right: 0px;
+}
+
+.div-noticias .bloco-outras .descricao-outras {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font: normal normal 800 12px/18px 'Fira Sans Extra Condensed', sans-serif;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 85%) 0% 0% no-repeat padding-box;
+  padding: 10px;
+}
+
+.tracado-div-noticias {
+  background: #51A66F;
+  width: 95px;
+  height: 11px;
+  border-radius: 8px;
+  margin: 2% 0% 1% 46%;
+}
+
+.noticia-principal-texto {
+  text-align: left;
+  font: normal normal bold 24px/28px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  padding: 0px 0px 0px 50px;
+}
+
+.noticia-secundaria-texto {
+  text-align: left;
+  font: normal normal bold 15px/21px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 0px 0px 23px 25px;
+}
+
+
+.div-noticias .bloco-outras p {
+  margin: 0;
+}
+
+.div-noticias.div-icon-banner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: black;
+}
+
+.seta-esquerda {
+  margin: 0px 70px 0px 0px;
+}
+
+.seta-direita {
+  margin: 0px 0px 0px 70px;
+}
+
+.div-noticias .div-icon-banner i {
+  /* background: white; */
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 28px;
+  color: white;
+}
+
+.div-noticias .carousel-control {
+  display: flex;
+  align-items: center;
+  color: black;
+  background: transparent;
+  opacity: 1;
+  justify-content: center;
+}
+
+.div-noticias .carousel-caption {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  height: 115px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font: normal normal 800 18px/24px 'Fira Sans Extra Condensed', sans-serif;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  text-shadow: none;
+  transition: background 0.2s ease;
+}
+
+.div-noticias .div-button a {
+  border: none;
+  margin: auto;
+  margin-top: 35px;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 2.25px;
+  color: #003766;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #003766;
+  border-radius: 5px;
+  cursor: pointer;
+  top: 1376px;
+  left: 1090px;
+  width: 491px;
+  height: 53px;
+  opacity: 1;
+  padding: 1px;
+  margin-bottom: 2%;
+  transition: background 0.1 ease;
+  -ms-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #0D4D95;
+  border: 1px solid #0D4D95;
+  border-radius: 11px;
+  opacity: 1;
+}
+
+.div-noticias .div-button a:hover {
+  background: #87b0d6;
+}
+
+.item img,
+.bloco-outras img {
+  object-fit: fill;
+  transition: opacity 0.2s ease;
+}
+
+.item:hover img,
+.bloco-outras:hover img {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.item:hover .carousel-caption {
+  background: #00000080 linear-gradient(180deg, #00000070 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  transition: background 0.2s ease;
+}
+
+.bloco-outras:hover .descricao-outras {
+  background: #00000080 linear-gradient(180deg, #00000070 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  transition: background 0.2s ease;
+}
+
+@media (max-width: 360px) {
+  .seta-direita {
+    margin: 0px 0px 0px 50px;
+  }
+}
+
+@media (max-width: 280px) {
+  .seta-direita {
+    margin: 0;
+  }
+  .seta-esquerda {
+    margin: 0;
+  }
+  .noticia-principal-texto {
+    padding: 0;
+  }
+}

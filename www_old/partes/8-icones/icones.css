@@ -1,0 +1,229 @@
+.div-acesso-rapido {
+    position: relative;
+    background-color: #fff;
+    padding-bottom: 31px;
+  }
+  
+  .div-h1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .div-acesso-rapido .div-h1 h1 {
+    margin-top: 39px;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: -0.95px;
+    font: normal normal bold 38px/46px 'Fira Sans Extra Condensed', sans-serif !important;
+    margin-left: 0px;
+  }
+  
+  .div-acesso-rapido .div-links-icones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    font-family: 'Candal', sans-serif;
+    grid-gap: 10px;
+  }
+  
+  .div-links-icones:nth-child(2) {
+  margin-bottom: 46px;
+  }
+  
+  .div-acesso-rapido .div-icone-baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 126px;
+    border-radius: 10px;
+    background-color: #003766;
+  }
+  
+  .div-acesso-rapido a {
+    color: #4C5C68;
+    text-decoration: none;
+  }
+  p {
+    margin: 0 0 10px !important;
+  }
+  /* .div-acesso-rapido a:hover  {
+    background-color: var(--main-color);
+    color: #118AB2;
+  } */
+  
+  .div-acesso-rapido i {
+    font-size: 50px;
+    color: #118AB2;
+  }
+  
+  .div-acesso-rapido p.acessibilidade{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 13px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    width: 182px;
+    font-weight: 500;
+  }
+  
+  .div-acesso-rapido p.legenda{
+    font: normal normal normal 12px/13px 'Roboto', light !important; 
+    width: 200px !important;
+    text-align: center;
+    color: #1C3E92;
+  }
+  
+  .outros-servicos .div-icone-baixo img {
+    background-color: transparent;
+    box-shadow: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .outros-servicos .div-icone-baixo img:hover {
+    /*background-color: white;
+    /* box-shadow: none; */
+  }
+  
+  
+  
+  
+  /** ------- botões rodapé ------- 
+  
+  .btn1 img, .btn2 img, .btn3 img {
+    margin-left: 15px;
+  }
+  
+  .btn1 img, .btn2 img, .btn3 img {
+    margin-left: 15px;
+  }
+  
+  .botoes-rodape .btn1 {
+    background: #FFF700 0% 0% no-repeat padding-box;
+    height: 107px;
+    margin-right: -1px;
+    transition: background 0.2s ease;
+  }
+  
+  .botoes-rodape .btn1:hover {
+    background: #fff950;
+  }
+  
+  .botoes-rodape .btn2 {
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 107px;
+    margin-right: -1px;
+    transition: background 0.2s ease;
+  }
+  
+  .botoes-rodape .btn2:hover {
+    background: #2e2e2e;
+  }
+  
+  .botoes-rodape .btn3 {
+    background: #465535 0% 0% no-repeat padding-box;
+    height: 107px;
+    transition: background 0.2s ease;
+  }
+  
+  .botoes-rodape .btn3:hover {
+    background: #4d5f39;
+  }
+  
+  .desc-iluminacao {
+    color: #1C3E92;
+    letter-spacing: -0.55px;
+    font: normal normal 600 22px/27px 'Fira Sans Extra Condensed', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .desc-edital-1, .desc-edital-2 { 
+    font: normal normal 600 22px/27px 'Fira Sans Extra Condensed', sans-serif;
+    letter-spacing: -0.55px;
+    color: #ffffff;
+  }
+  .desc-edital-1 { 
+    margin-top: auto;
+  }
+  
+  .desc-decretos-1 { 
+    font: normal normal 600 22px/27px 'Fira Sans Extra Condensed', sans-serif;
+    letter-spacing: -0.6px;
+    color: #ffffff;
+    margin-top: auto;
+  }
+  
+  .desc-decretos-1 span {
+    color: #DBA13B;
+    font: normal normal 600 22px/27px 'Fira Sans Extra Condensed', sans-serif;
+  }
+  
+  .desc-decretos-2 {
+    font: normal normal 200 12px/14px 'Fira Sans Extra Condensed', sans-serif;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+    font-size: 11px;
+  }
+  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "iluminacao edital decretos";
+  }
+  
+  .iluminacao {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "img-iluminacao desc-iluminacao";
+    grid-area: iluminacao;
+  }
+  
+  .img-iluminacao { grid-area: img-iluminacao; }
+  
+  .desc-iluminacao { grid-area: desc-iluminacao; }
+  
+  .edital {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "img-edital desc-edital-1"
+      "img-edital desc-edital-2";
+    grid-area: edital;
+  }
+  
+  .img-edital { grid-area: img-edital; }
+  
+  .desc-edital-1 { grid-area: desc-edital-1; }
+  
+  .desc-edital-2 { grid-area: desc-edital-2; }
+  
+  .decretos {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "img-decretos desc-decretos-1"
+      "img-decretos desc-decretos-2";
+    grid-area: decretos;
+  }
+  
+  .img-decretos { grid-area: img-decretos; }
+  
+  .desc-decretos-1 { grid-area: desc-decretos-1; }
+  
+  .desc-decretos-2 { grid-area: desc-decretos-2; }**/
+  
+  

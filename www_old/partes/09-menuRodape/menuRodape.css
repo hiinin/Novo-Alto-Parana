@@ -1,0 +1,80 @@
+.rodape-titulo {
+  text-align: left;
+  font: normal normal 900 14px/21px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 0px 0px 10px 0px;
+}
+
+.menu-rodape {
+  padding: 45px 0;
+}
+
+.rodape-titulo-contato,
+.rodape-titulo-imprensa {
+  text-align: left;
+  font: normal normal 900 14px/21px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+.distanciamento-menu{
+  padding-top: 10px;
+}
+
+.rodape-titulo-imprensa:hover {
+  color:#51A66F;
+}
+.rodape-titulo-contato:hover {
+  color: #51A66F;
+}
+
+.fundo-rodape-menu {
+  background: #0339A6;
+}
+
+.menu-rodape .col-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-menu-rodape {
+  text-align: left;
+  font: normal normal 900 14px/19px Segoe UI;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.sub-rodape a {
+  text-align: left;
+  font: normal normal normal 12px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.sub-rodape a:hover {
+  color:#51A66F;
+}
+.sub-rodape-titulo {
+  padding: 2px 0;
+}
+
+.municipio{
+  padding: 0;
+}
+.gestao{
+  padding: 0 0 0 25px;
+}
+
+.secretaria{
+  padding: 0 0 0 60px;
+}
+
+.servicos{
+  padding: 0 0 0 25px;
+}

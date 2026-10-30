@@ -1,0 +1,81 @@
+.fundo-baner {
+  background-image: url(../../images/fundo-banner.svg);
+  padding: 50px 0 30px 0;
+  margin-top: 25px;
+  height: auto;
+}
+
+.left-slider {
+  position: relative;
+  right: 7%;
+  bottom: 20px;
+}
+
+.right-slider {
+  position: relative;
+  left: 104%;
+  bottom: 20px;
+}
+
+.carousel-indicators {
+  top: 360px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #424649;
+  background: #424649;
+  margin: 0px 30px;
+}
+
+.carousel-indicators .active {
+  border: solid 5px #424649;
+  height: 20px;
+  width: 20px;
+  margin: 0 30px;
+}
+
+.btn-slider {
+  position: relative;
+  top: -200px;
+}
+
+.carousel-inner {
+  height: 348px;
+}
+
+.carousel-inner {
+  height: 365px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media(max-width: 1280px){
+  .left-slider {
+    right: 3%;
+  }
+  .right-slider {
+    left: 100%;
+  }
+}
+
+@media(max-width: 1024px){
+    .right-slider{
+        left: 99.7%;
+    }
+    .left-slider{
+        right: 3%;
+      }
+}
+
+@media (max-width: 768px) {
+  .right-slider {
+    left: 95%;
+  }
+  .left-slider{
+    left: 1%;
+  }
+  #banner{
+    padding: 10px;
+  }
+}

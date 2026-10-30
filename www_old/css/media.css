@@ -1,0 +1,1348 @@
+@media (max-width: 1366px) {
+  /* ----- banner ----- */
+  .carousel {
+    margin: 30px;
+  }
+
+  /* ----- rodapé ----- */
+  .horario::after {
+    width: 636px !important;
+    margin-left: -70px !important;
+  }
+  .horario-rp {
+    gap: 0px 20px !important;
+  }
+  
+  .fundo-pesquisa{
+    width: 430px;
+  }
+}
+
+@media (max-width: 1320px) {
+  /* ----- banner ----- */
+  .div-banner .left2 {
+    left: 2% !important;
+  }
+
+  .div-banner .right2 {
+    right: 2% !important;
+  }
+
+  /* ----- rodapé ----- */
+  .menu-rp {
+    gap: 0px 0px !important;
+    margin: -45px 0 0 -85px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* ----- topo ----- */
+  .div-topo .div-telefone,
+  .div-topo .span-traco-center {
+    display: none;
+  }
+
+  /* ----- logo menu ----- */
+  .div-logo-menu {
+    height: 237px !important;
+  }
+
+  .div-logo-menu .div-logo-menu-content {
+    align-items: center;
+    display: flex;
+  }
+
+  .div-logo-menu .div-menu {
+    margin-top: 30px;
+  }
+
+  .div-logo-menu .div-logo {
+    justify-content: center;
+  }
+
+  .div-logo-menu .div-menu {
+    margin-top: 10px;
+  }
+  .div-icones-centro .div-icones {
+    display: flex !important;
+  }
+
+  .nav-menu-responsivo {
+    padding-top: 0 !important;
+  }
+  /* ----- banner ----- */
+  .ico-1 {
+    padding: 20px !important;
+  }
+  .div-banner .left2 {
+    left: -7% !important;
+  }
+
+  .div-banner .right2 {
+    right: -7% !important;
+  }
+
+  /* ----- notícias ----- */
+  .div-noticias .div-bloco-noticias {
+    justify-content: center !important;
+  }
+
+  .div-noticias .div-outras {
+    width: 100%;
+    flex-direction: inherit !important;
+    justify-content: space-evenly !important;
+    margin: 25px 0 0 0;
+  }
+  /* ----- acesso rápido ----- */
+  .desc-iluminacao  {
+    font-size: 20px !important;
+  }
+
+  .div-icones-centro #cidadao a, 
+  .div-icones-centro #empresa a,
+  .div-icones-centro #servidor a {
+    height: 130px;
+  }
+  .lista-item-acesso .tab-pane {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .desc-edital-1,
+  .desc-edital-2 {
+    font: 20px;
+  }
+  .desc-edital-1 {
+    margin-top: 25px !important;
+  }
+
+  .desc-edital-2 {
+    margin-top: -3px !important;
+  }
+  .img-edital img {
+    width: 90px;
+    margin-top: 20px;
+  }
+  .desc-decretos-1,
+  .desc-decretos-1 span {
+    font-size: 20px;
+    display: block;
+  }
+  .desc-decretos-1 {
+    margin-top: 12px !important;
+  }
+  .img-decretos img {
+    width: 80px;
+    margin-top: 15px;
+  }
+
+  /* ----- rodapé ----- */
+  .div-endereco {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 1134px) {
+  /* ----- logo-menu ----- */
+  .div-logo-menu-content{
+    flex-direction: inherit !important;
+  }
+
+  /* ----- acesso rápido ----- */
+  .div-banner .left2 {
+    left: 2% !important;
+  }
+  .div-banner .right2 {
+    right: 2% !important;
+  }
+  /* ----- acesso rápido ----- */
+  .div-acesso-rapido .div-links {
+    padding: 0px !important;
+  }
+
+
+  /* ----- rodapé ----- */
+  .grid-container-rodape {
+    display: block !important;
+    margin-left: 250px;
+    bottom: 630px !important;
+  }
+  .area-rodape {
+    display: flex;
+    gap: inherit;
+    margin-left: -110px;
+    height: 0;
+    grid-template-areas:
+      "area-logo info-rp"
+      "area-logo info-rp" !important;
+  }
+  .area-logo {
+    gap: 0px 0px;
+    grid-template-columns: 0.1fr 1fr !important;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .horario-rp {
+    margin-left: 60px;
+    margin-top: -20px;
+  }
+  .horario::after {
+    display: none !important;
+  }
+  .left-detail {
+    border-radius: 0 !important;
+    width: 100% !important;
+  }
+  .info-rp {
+    margin-top: 43px;
+    text-align: center;
+    width: 330px;
+    margin-left: -6px !important;
+  }
+  .area-menu-rp {
+    gap: 180px 0px !important;
+  }
+  .container-fluid {
+    height: 660px !important;
+  }
+  .menu-rp {
+    margin: -30px 0 0 -48px !important;
+  }
+  .left-detail {
+    height: 200px !important;
+  }
+  .menu-rp {
+    margin: -70px 0 0 -85px !important;
+  }
+  .horario {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 1080px) {
+  .iptu-1 {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  .div-noticias .img-destaque {
+    height: 505px !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  /* ----- icones centro ----- */
+  .ico-2 {
+    padding: 20px 20px 20px 20px !important;
+    margin-top: -30px;
+  }
+  /* #cidadao {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+  #empresa {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+  #servidor {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  } */
+  .div-logo-menu .div-logo-menu-content {
+    display: grid !important;
+    justify-items: center !important;
+  }
+  .plano-diretor {
+    width: 100%!important;
+    padding: 19px 0px 0px 0px;
+  }
+  .div-logo-menu {
+    padding: 20px 0;
+    background: #F3F3F3;
+    height: 237px !important;
+  }
+  .span-traco-left {
+    padding: 9px !important;
+  }
+  .div-icone{
+    margin: 10px !important;
+  }
+  .div-acesso-rapido .div-links {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-items: center;
+  }
+  .iptu-1 {
+    width: 100%;
+    padding: 20px 10px;
+    object-fit: cover;
+  }
+  .div-acesso-rapido .div-links-icones {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+.menu-baixo {
+  grid-template-areas:
+      " links links links"
+      "municipio canais atendimento" !important;
+}
+.endereco-baixo {
+  grid-template-areas:
+      "logo-baixo"
+      "endereco" !important;
+  justify-items: center;
+}
+.div-botao-lateral {
+  /* display: none !important; */
+  background: #fff;
+}
+.box-links {
+  grid-area: links;
+  border-left: 0px solid #707070 !important;
+}
+.box-canais {
+  grid-area: canais;
+  border-right: 0px solid #707070 !important;
+}
+  /* ----- logo menu ----- */
+  .nav-menu-responsivo .ul-menu-responsivo .ul-submenu-responsivo {
+    margin-top: -2px !important;
+  }
+  .div-logo-menu .div-logo-menu-content {
+    display: grid !important;
+    justify-items: center !important;
+  }
+  .div-logo-menu {
+    height: 235px !important;
+  }
+  /* #cidadao {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+  #empresa {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+  #servidor {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr)!important;
+    align-items: center !important;
+    justify-items: center !important;
+  } */
+  .menu-rp {
+    margin: -86px 0 0 -85px !important;
+  }
+  .col-lg-offset-0 {
+    margin-right: -27px !important;
+  }
+  .nav-menu-responsivo .ul-menu-responsivo .li-menu-responsivo {
+    margin: 0px 12px !important;;
+  }
+  /* ----- rodape ----- */
+  .container-fluid {
+    height: 431px !important;
+  }
+  .grid-container-rodape {
+    bottom: 384px !important;
+  }
+
+  .info-rp {
+    text-align: initial;
+    gap: 10px 10px !important;
+    margin-top: 20px !important;
+  }
+  .horario-rp {
+    gap: 0px 0px !important;
+    margin-left: -50px !important;
+  }
+
+}
+
+@media (max-width: 1040px){
+
+  .div-acesso-rapido .div-links {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr)!important;
+  }
+  
+  .outros-servicos{
+    text-align: -webkit-center;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* ----- banner ----- */
+  img.img-banner {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .div-logo-menu .div-logo-menu-content {
+    display: grid !important;
+    justify-items: center !important;
+  }
+  .nav-menu-responsivo {
+    padding-top: 0px !important;
+  }
+  .div-logo-menu {
+    height: 186px !important;
+}
+  /* ----- icones centro ----- */
+  .div-icones-centro a {
+    width: calc(100% / 11);
+  }
+
+
+  /* ----- acesso rápido ----- */
+  .div-acesso-rapido {
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iptu-1 {
+    width: 100%;
+    padding: 20px 10px;
+    object-fit: cover;
+  }
+  .span-traco-left {
+    padding: 9px !important;
+  }
+
+  .menu-baixo {
+    grid-template-areas:
+        " links links links"
+        "municipio canais atendimento" !important;
+  }
+  .endereco-baixo{
+    grid-template-areas:
+      "logo-baixo" "endereco" !important;
+      justify-items: center;
+  }
+  .box-canais {
+    border-right: none !important;
+  }
+  .plano-diretor {
+    width: 100%!important;
+    padding: 20px 0px 0px 22px;
+  }
+
+  .div-acesso-rapido .div-links-icones {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .lista-item-acesso .tab-pane {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .div-acesso-rapido a{
+    padding-top: 10px !important;
+  }
+  .div-links{
+    justify-items: center;
+  }
+  /* ----- rodape ----- */
+  .div-menu-rodape .div-menu {
+    margin-left: 5%;
+  }
+  .info-rp {
+    width: 320px !important;
+    gap: 0px 5px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ----- topo ----- */
+  .div-topo .div-email {
+    display: none;
+  }
+  .span-acessibilidade {
+    display: none !important;
+  }
+  .div-topo .div-button-acessibilidade {
+    display: flex !important;
+  }
+
+  .span-traco-left {
+    padding: 9px !important;
+  }
+  /* ----- logo ----- */
+  .p-div-logo{
+    font: normal normal 900 30px/36px Fira Sans !important;
+  }
+  /* .tamanho {
+    width: 90px !important;
+  } */
+  /* ----- banner ----- */
+  .carousel-inner .item img {
+    object-fit: cover !important;
+  }
+  /* ----- notícias ----- */
+  .div-noticias .div-outras {
+    justify-content: space-between;
+  }
+  .div-noticias .div-button a {
+    width: 100% !important;
+  }
+  /* ----- acesso rapido ----- */
+  .div-acesso-rapido .div-links {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr)!important;
+  }
+  .outros-servicos{
+    text-align: -webkit-center!important;
+  }
+  .img-iluminacao img {
+    width: 50px;
+  }
+  .iluminacao {
+    gap: 0px 17px !important;
+  }
+  .desc-edital-1,
+  .desc-edital-2 {
+    font-size: 19px !important;
+  }
+  .desc-edital-1 {
+    margin-top: 17px !important;
+  }
+  .desc-edital-2 {
+    margin-top: -10px !important;
+  }
+  .img-decretos img {
+    width: 60px;
+  }
+  .desc-decretos-1,
+  .desc-decretos-1 span {
+    font-size: 19px !important;
+  }
+  .img-decretos img {
+    margin-top: 23px;
+  }
+  .div-acesso-rapido .div-links {
+    justify-content: space-around !important;
+  }
+  .div-links:nth-child(2) {
+    margin-bottom: 0px !important;
+  }
+  .botoes-rodape {
+    margin-top: 20px;
+  }
+  /* ----- rodape ----- */
+  .horario-rp {
+    margin-left: 38px;
+  }
+  .grid-container-rodape {
+    margin-left: 150px;
+  }
+  .area-rodape {
+    gap: 0px 25px;
+    margin-left: -129px;
+  }
+  .titulo-maior {
+    font-size: 34px !important;
+  }
+  .img img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  /* ----- acesso rápido ----- */
+  .div-acesso-rapido {
+    margin-top: 0px;
+  }
+
+  .div-acesso-rapido .div-links {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .p-botao-lateral {
+    width: 85px !important;
+  }
+
+  .img-botao-lateral {
+    width: 40px !important;
+    margin: 9px 0 0 24px !important;
+  }
+
+  .div-botao-lateral {
+    width: 120px !important;
+    height: 90px !important;
+  }
+  .img-botao-lateral2 {
+    width: 65px !important;
+    margin: 7px 0 0 9px !important;
+}
+  /* ----- banner ----- */
+  .tamanho {
+    font-size: 17px !important;
+  }
+
+  img.img-banner {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /* ----- topo ----- */
+  .div-topo {
+    display: none;
+  }
+  .endereco-baixo{
+    display: none !important; 
+  }
+  /* ----- logo menu ----- */
+  .div-logo-menu .div-menu {
+    width: 714px !important;
+  }
+  .div-acesso-rapido .div-links-icones {
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+  .nav-menu-responsivo .ul-menu-responsivo {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .div-logo-menu .div-logo{
+    padding-left: 40px !important;
+  }
+  .p-div-logo{
+    font: normal normal 900 19px/24px Fira Sans !important;
+  }
+  .nav-menu-responsivo .div-menu-responsivo {
+    /* width: 40% !important; */
+  }
+  .nav-menu-responsivo .ul-menu-responsivo {
+  }
+
+  .p-div-logo-menu {
+    width: 267px;
+    height: 55px;
+    text-align: left;
+    font: normal normal 800 36px/55px "Fira Sans Extra Condensed", sans-serif;
+    letter-spacing: -1.15px;
+    color: #1c3e92;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  h6 {
+    font-size: 12px !important;
+  }
+
+  .form-control {
+    width: 98%;
+  }
+  .col-lg-offset-0 {
+    margin-right: 3px !important;
+  }
+  .btn-close {
+    margin: -35px -9px 0 0 !important;
+  }
+
+  .ico-pesquisa {
+    margin-right: 15px;
+  }
+
+  /* ----- acesso rapido ----- */
+  .div-acesso-rapido .div-links {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
+  .outros-servicos{
+    text-align: -webkit-center;
+  }
+  .div-links a{
+    padding-right: 39px!important;
+    padding-left: 39px!important;
+  }
+  p.legenda {
+    font: normal normal normal 11px/13px 'Roboto', light !important;
+  }
+  .menu-rp {
+    display: none !important;
+  }
+  .area-rodape {
+    margin-left: -112px;
+  }
+  .container-fluid {
+    height: 0px !important;
+  }
+  .grid-container-rodape {
+    height: 199px !important;
+    bottom: -40px !important;
+  }
+  .grid-container {
+    display: block !important;
+  }
+  .botoes-rodape .btn1,
+  .botoes-rodape .btn2,
+  .botoes-rodape .btn3 {
+    height: 100px !important;
+    padding-right: 20px;
+  }
+  .iluminacao,
+  .edital,
+  .decretos {
+    grid-template-columns: 0.1fr 1fr !important;
+    text-align: right !important;
+  }
+  .iluminacao {
+    gap: 0px 0px !important;
+  }
+  /* ----- rodape ----- */
+  .area-rodape {
+    display: inherit !important;
+  }
+  .horario-rp {
+    margin-top: -45px !important;
+    margin-left: -250px !important;
+  }
+  .left-detail {
+    height: 290px !important;
+  }
+  .div-downloads {
+    margin-top: 65px;
+  }
+  .div-menu-rodape {
+    display: flex !important;
+  }
+  .menu-rp {
+    display: none !important;
+  }
+  .grid-container-rodape {
+    margin-left: 337px !important;
+  }
+  .div-atualizacao p {
+    font-size: 9px;
+  }
+  .info-rp {
+    width: 430px !important;
+    text-align: center !important;
+    margin-left: -70px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+  .iptu-1 {
+    display: flex;
+    width: 100%;
+  }
+  .tab-content {
+    padding: 48px 2px 42px 0px;
+    background-color: #003766;
+    width: 100%;
+  }
+}
+
+@media (max-width: 736px) {
+    /* ----- logo menu ----- */
+    .div-logo-menu .div-menu {
+      width: 670px !important;
+    }
+    /* ----- rodape ----- */
+    .grid-container-rodape {
+      margin-left: 240px !important;
+    }
+    #conteudo-pesquisa {
+      top: 116px !important;
+    }
+  }
+  
+
+@media (max-width: 689px) {
+  .p-div-logo{
+    font: normal normal 900 15px/20px Fira Sans !important
+  }
+  /* ----- noticias ----- */
+  .div-noticias .div-outras {
+    display: none !important;
+  }
+}
+
+@media (max-width: 667px) {
+  /* ----- logo menu ----- */
+  .div-logo-menu .div-menu {
+    width: 588px !important;
+  }
+  #conteudo-pesquisa {
+    top: 116px !important;
+  }
+  .horario {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 655px) {
+  /* ----- topo ----- */
+  .div-topo .div-topo-content {
+    justify-content: center;
+  }
+
+  .div-topo .div-endereco,
+  .div-topo .span-traco-left {
+    font-size: 11px;
+  }
+  .span-traco-left {
+    padding: 27px !important  ;
+  }
+}
+
+@media (max-width: 600px) {
+  /* ----- logo menu ----- */
+  .div-logo-menu .div-menu {
+    width: 544px !important;
+  }
+  .nav-menu-responsivo .ul-menu-responsivo {
+        grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .nav-menu-responsivo .ul-menu-responsivo .li-menu-responsivo {
+    margin: 3px 10px 0px 10px !important;
+  }
+  .div-logo-menu .div-logo-menu-content {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  /* .div-logo-menu .div-logo-menu-content a {
+    height: 72px !important;
+  } */
+  /* .div-logo-menu .div-logo {
+    padding-left: 184px !important;
+  } */
+  .form-control {
+    width: 552px;
+  }
+  .div-logo img{
+    width: 385px !important;
+  }
+  /* #cidadao {
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
+  #empresa {
+    grid-template-columns: repeat(2, 1fr)!important;
+  }
+  #servidor {
+    grid-template-columns: repeat(2, 1fr)!important;
+  } */
+  .iptu {
+  display: grid !important;
+  justify-items: center !important;
+  }
+  .links {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* #cidadao {
+    width: 600px !important;
+}
+#empresa {
+  width: 600px !important;
+}
+#servidor {
+  width: 600px !important;
+} */
+  .div-noticias .div-destaque {
+    width: 541px !important;
+}
+  .box-titulo {
+    display: grid !important;
+    justify-items: center !important;
+}
+
+.nav-tabs li {
+  width: 140px !important;
+}
+
+/* #cidadao {
+  width: auto !important;
+}
+#empresa {
+  width: auto !important;
+}
+#servidor {
+  width: auto !important;
+} */
+
+  #conteudo-pesquisa {
+    top: 116px !important;
+  }
+  .nav>li>a {
+    padding: 10px 76px !important;
+  }
+  /* ----- icones centro ----- */
+  .div-icones-centro a {
+    width: calc(100% / 4) !important ;
+  }
+  .div-icones-centro .div-icones {
+    display: inline-block !important;
+  }
+  .div-icones-centro {
+    display: flex !important;
+  }
+
+  /* ----- acesso rápido ----- */
+  .div-acesso-rapido .div-links {
+    flex-wrap: wrap;
+  }
+
+  /* ----- radapé ----- */
+  .grid-container-rodape {
+    font-size: 12px;
+  }
+  .info-rp {
+    height: 60px !important;
+    font-size: 14px !important;
+  }
+  /* .menu-rp {
+    margin: -30px 0 0 -85px !important;
+  } */
+  .titulo-maior {
+    font-size: 34px !important;
+  }
+  .img img {
+    width: 70px;
+  }
+  .grid-container-rodape {
+    margin-left: 245px !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .form-control {
+    width: 319px!important;
+  }
+
+  .div-logo-menu .div-logo {
+    padding-left: 1px !important;
+    
+  }
+  .div-logo-menu .p-div-logo{
+    display: flex;
+    width: 231px !important;
+    text-align: left;
+    font: normal normal 900 15px/16px Fira Sans;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+  }
+  .menu-baixo{
+    grid-template-columns: repeat(4,2fr)!important;
+  }
+  
+  
+}
+@media (max-width: 565px) {
+  .div-noticias h1 {
+    margin: 30px 0 0 0;
+  }
+}  
+
+@media (max-width: 550px) {
+  /* ----- logo menu ----- */
+  .div-logo-menu .div-menu {
+    width: 220px;
+  }
+
+  .horario {
+    font-size: 9px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .div-logo-menu {
+    height: 145px !important;
+  }
+  .div-logo img {
+    width: 275px !important;
+  } 
+}
+
+@media (max-width: 460px) {
+  .menu-baixo{
+    grid-template-columns: repeat(2,2fr)!important;
+  }
+}
+.div-menu-rodape.acessibilidade1 {
+    background-color: #004E98;
+}
+
+@media (max-width: 445px) {
+  /* ----- logo menu ----- */
+  .nav-menu-responsivo .ul-menu {
+    padding: 0 40px !important;
+  }
+}
+@media (max-width: 426px) {
+  /* ----- banner ----- */
+  img.img-banner {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  /* ----- logo menu ----- */
+  .div-logo-menu .div-logo {
+    margin-left: 40px;
+    display: none;
+  }
+  .form-control {
+    width: 391px!important;
+  }
+  .div-logo-menu .div-logo {
+    padding-left: 13px !important;
+  }
+
+  .div-logo img {
+    width: 250px !important;
+  }
+
+  h6 {
+    font-size: 10px !important;
+  }
+
+  /* ----- icones centro ----- */
+  .div-icones-centro a {
+    width: calc(100% / 2) !important;
+  }
+
+  /* ----- rodape ----- */
+  .icone-horario {
+    display: none !important;
+  }
+  .horario-rp {
+    grid-template-columns: 0fr 1fr !important;
+    margin-left: -162px !important;
+  }
+  .area-rodape {
+    margin-left: -126px !important;
+  }
+  .horario {
+    font-size: 7px !important;
+    etter-spacing: 0.3px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .btn-close {
+    margin: -35px -15px 0 0 !important;
+  }
+  .form-control {
+    width: 342px!important;
+  }
+
+  .div-acesso-rapido .div-links {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr)!important;
+  }
+
+  .div-logo img {
+    width: 239px!important;
+  }
+  .box-atendimento{
+    display: none !important;
+  }
+  .ico-pesquisa {
+    float: right;
+    margin-top: -39px !important;
+  }
+  .links{
+    grid-gap: 8px !important;
+  }
+  .fonte-horario{
+    display: none !important;
+  }
+  .nav.nav-tabs.menu-acesso-rapido{
+    width: 361px !important;
+  }
+  .div-h1 h1 {
+    font-family: 'Segoe UI, Black', sans-serif;
+    text-align: center;
+    margin: 0px !important; 
+    font-weight: bold;
+    font-size: 38px;
+  }
+  .fonte-aba {
+
+    font: normal normal 600 13px/24px Fira Sans !important;
+  }
+
+  .tracado-div {
+    margin-left: 123px !important;
+  }
+  .fundo-pesquisa {
+
+    width: 351px !important;
+  
+  }
+
+  .div-logo-menu .div-logo {
+    padding-left: 1px !important;
+  
+  }
+  .div-logo-menu .p-div-logo{
+    display: flex;
+    width: 231px !important;
+    text-align: left;
+    font: normal normal 900 15px/16px Fira Sans;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  .plano-diretor {
+    width: 217px !important;
+    padding: 0px !important;
+  }
+  .div-noticias .div-destaque {
+    width: 285px !important;
+  }
+
+  .links {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .div-acesso-rapido .div-links-icones {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .nav>li>a {
+    padding: 10px 43px !important;
+  }
+
+  .nav-tabs li {
+    width: 90px !important;
+  }
+
+  /* #cidadao {
+    grid-template-columns: repeat(1, 1fr)!important;
+  }
+  #empresa {
+    grid-template-columns: repeat(1, 1fr)!important;
+  }
+  #servidor {
+    grid-template-columns: repeat(1, 1fr)!important;
+  } */
+  .div-logo{
+    display: none;
+  }
+  .ico-1 {
+    padding: 0 10px !important;
+  }
+  .ico-2 {
+    margin-top: -30px;
+  }
+  .icone-endereco,
+  .icone-tel,
+  .icone-email {
+    display: none;
+  }
+  .grid-container-rodape {
+    margin-left: 140px !important;
+    bottom: -64px !important;
+  }
+  .horario-rp {
+    width: 300px !important;
+    margin-left: -120px !important;
+    text-align: center !important;
+    margin-top: -66px !important;
+  }
+  .area-logo {
+    margin-left: 10px !important;
+  }
+  .info-rp {
+    width: 300px !important;
+    margin-left: -12px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  /* ----- banner ----- */
+  .carousel {
+    height: 200px;
+  }
+  .div-banner .div-icon-banner {
+    height: 130% !important;
+  }
+  .div-banner .carousel-indicators {
+    bottom: -46px !important;
+  }
+  .div-noticias .img-destaque {
+    height: 217px !important;
+  }
+  img.img-banner {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .div-noticias .img-destaque {
+    height: 212px !important;
+  }
+  .nav.nav-tabs.menu-acesso-rapido {
+    width: 345px !important;
+  }
+  .nav.nav-tabs.menu-acesso-rapido {
+    width: 328px !important;
+  }
+  .fonte-aba{
+    font: normal normal 600 13px/24px Fira Sans !important;
+  }
+  .fundo-pesquisa {
+    width: 302px !important;
+}
+  /* ----- icones centro ----- */
+  .div-icones-centro .div-icones {
+    display: flex !important;
+  }
+  .ico-1 {
+    padding: 20px 20px 0 20px !important;
+  }
+  .ico-2 {
+    padding: 0 20px 20px 20px !important;
+    margin-top: 0;
+  }
+
+  /* ----- rodape ----- */
+  .horario-rp {
+    grid-template-columns: 0fr 1fr !important;
+    margin-left: -133px !important;
+    width: 300px !important;
+    text-align: center;
+    margin-top: -60px !important;
+  }
+
+  .btn-close {
+    margin: -35px -17px 0 0 !important;
+  }
+  .grid-container-rodape {
+    margin-left: 148px !important;
+  }
+  .info-rp {
+    margin-left: -20px !important;
+    width: 300px !important;
+  }
+  .icone-endereco,
+  .icone-tel,
+  .icone-email {
+    display: none !important;
+  }
+  .area-logo {
+    margin-left: 7px !important;
+  }
+  .grid-container-rodape {
+    bottom: -50px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .horario {
+    font-size: 7px !important;
+  }
+  .form-control {
+    width: 313px!important;
+  }
+
+  .div-logo-menu .div-logo-menu-content a {
+    height: 72px !important;
+  }
+    .div-links a{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+  }
+}
+
+@media (max-width: 320px) {
+  /* ----- logo menu ----- */
+  .div-logo-menu .p-div-logo {
+    font-size: 19px !important;
+  }
+  h6 {
+    font-size: 8px !important;
+  }
+  .form-control {
+    width: 292px!important;
+  }
+  .div-logo-menu .div-menu {
+    width: 490px !important;
+  }
+  .fundo-pesquisa {
+    width: 239px !important;
+  }
+  .nav.nav-tabs.menu-acesso-rapido {
+    width: 318px !important;
+  }
+
+.menu-baixo {
+
+  justify-items: center;
+}
+
+.div-logo img {
+  width: 166px!important;
+}
+  /* ----- banner ----- */
+  .div-banner {
+    display: none;
+  }
+  /* ----- icones centro ----- */
+  .div-icones-centro p {
+    white-space: initial !important;
+  }
+
+  /* ----- rodape ----- */
+  .horario-rp {
+    width: 280px;
+    text-align: center;
+    margin-left: -160px !important;
+  }
+  .img img {
+    width: 60px;
+  }
+  .titulo-maior {
+    font-size: 34px !important;
+  }
+  .titulo-menor {
+    font-size: 8px;
+  }
+  .area-logo {
+    margin-left: -19px;
+  }
+  .horario {
+    font-size: 7px !important;
+    letter-spacing: 0.3px !important;
+  }
+  .div-acesso-rapido .div-links {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr)!important;
+  }
+  .icone-endereco,
+  .icone-tel,
+  .icone-email {
+    display: none !important;
+  }
+  .info-rp {
+    margin-left: -44px !important;
+  }
+  .area-logo {
+    margin-left: -20px !important;
+    width: 270px !important;
+  }
+}

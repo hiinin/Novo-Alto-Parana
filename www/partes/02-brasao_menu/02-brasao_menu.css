@@ -1,0 +1,170 @@
+.fundo_logo {
+    background: transparent url(../../images/menu-topo.png) 50% 100%;
+}
+
+.fundo_menu {
+    background: linear-gradient(
+        180deg,
+        rgb(229 233 236 / 53%) 50%,
+        rgb(229 233 236 / 80%) 60%
+    );
+}
+
+.container_fundo_logo,
+.container_fluid,
+.collapse_menu {
+    padding: 0;
+}
+.controleTopo {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+}
+.controle_busca {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.fundoMenu_drop {
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+
+.control_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-toggle {
+    font: normal normal 900 12px/21px Roboto;
+    color: #1f2937 !important;
+    text-decoration: none !important;
+}
+
+.menu-drop {
+    width: auto;
+}
+
+.dropdown-menu {
+    min-width: unset;
+}
+
+.controll_dropdown {
+    list-style: none;
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+.controll_dropdown:hover {
+    box-shadow: inset 0px -45px 0px 0px #2071b1;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 6px #000);
+    z-index: 10;
+}
+.controll_dropdown:hover .t-toggle {
+    color: #fff !important;
+}
+.drop_contato {
+    right: 10%;
+    left: auto;
+}
+.dropMenu {
+    background: #2071b1;
+}
+#sub_menu {
+    padding: 1px 5px;
+    clear: both;
+    line-height: 1.42857143;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#sub_menu:hover {
+    color: #2071b1;
+    text-align: center;
+    font-weight: 600;
+}
+
+.controle_responsivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#btn_responsivo {
+    background: #2071b1;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.controle_responsivo_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.uk-offcanvas-close {
+    background: red !important;
+    border-radius: 50% !important;
+}
+.link_fale {
+    width: 118px;
+    display: flex;
+    height: 40px;
+    border-radius: 7px;
+    background: #f59e0b;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 300 11px / 21px Roboto;
+    color: #ffffff;
+}
+.placeholder1 {
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 7px;
+    width: 245px;
+    height: 40px;
+    padding: 15px;
+}
+
+@media (max-width: 840px) {
+    .control_menu {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 767px) {
+    .controll_dropdown {
+        background: #2071b1;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .controll_dropdown:hover {
+        transform: unset;
+        filter: unset;
+    }
+    .fundo_logo {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .controleTopo {
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 10px;
+    }
+    .placeholder1 {
+        width: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .controle_busca {
+        flex-direction: column;
+        align-items: center;
+    }
+}

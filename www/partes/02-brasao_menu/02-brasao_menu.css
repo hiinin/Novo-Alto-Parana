@@ -1,13 +1,23 @@
 .fundo_logo {
     background: transparent url(../../images/menu-topo.png) 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fundo_menu {
-    background: linear-gradient(
-        180deg,
-        rgb(229 233 236 / 53%) 50%,
-        rgb(229 233 236 / 80%) 60%
-    );
+    background: linear-gradient(180deg,
+            rgb(229 233 236 / 53%) 50%,
+            rgb(229 233 236 / 80%) 60%);
+    background: transparent;
+    padding: 8px 0;
+}
+
+.link_logo {
+    display: inline-block;
+    background: rgb(255 255 255 / 80%);
+    border-radius: 14px;
+    padding: 6px 18px;
+    box-shadow: 0px 3px 8px #00000026;
 }
 
 .container_fundo_logo,
@@ -15,6 +25,7 @@
 .collapse_menu {
     padding: 0;
 }
+
 .controleTopo {
     display: flex;
     justify-content: space-between;
@@ -23,11 +34,13 @@
     padding: 5px 0;
     flex-wrap: wrap;
 }
+
 .controle_busca {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
 }
+
 .fundoMenu_drop {
     background: transparent;
     border: none;
@@ -38,12 +51,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
 }
 
 .t-toggle {
     font: normal normal 900 12px/21px Roboto;
     color: #1f2937 !important;
+    font: normal normal 600 12px/21px Roboto;
+    color: #1d4f91 !important;
     text-decoration: none !important;
+    display: block;
 }
 
 .menu-drop {
@@ -57,26 +74,35 @@
 .controll_dropdown {
     list-style: none;
     padding: 10px 0;
+    flex: 1;
+    padding: 6px 0;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px #00000029;
     transition: all 0.5s;
 }
+
 .controll_dropdown:hover {
     box-shadow: inset 0px -45px 0px 0px #2071b1;
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
-    transform: scale(1.2);
+    transform: scale(1.05);
     filter: drop-shadow(0px 0px 6px #000);
     z-index: 10;
 }
+
 .controll_dropdown:hover .t-toggle {
     color: #fff !important;
 }
+
 .drop_contato {
     right: 10%;
     left: auto;
 }
+
 .dropMenu {
     background: #2071b1;
 }
+
 #sub_menu {
     padding: 1px 5px;
     clear: both;
@@ -97,6 +123,7 @@
     align-items: center;
     padding: 10px;
 }
+
 #btn_responsivo {
     background: #2071b1;
     color: #fff;
@@ -108,10 +135,12 @@
     flex-direction: column;
     gap: 1rem;
 }
+
 .uk-offcanvas-close {
     background: red !important;
     border-radius: 50% !important;
 }
+
 .link_fale {
     width: 118px;
     display: flex;
@@ -123,6 +152,7 @@
     font: normal normal 300 11px / 21px Roboto;
     color: #ffffff;
 }
+
 .placeholder1 {
     border: none;
     box-shadow: 0px 3px 6px #00000029;
@@ -132,31 +162,42 @@
     padding: 15px;
 }
 
+@media (max-width: 991px) {
+    .link_logo {
+        padding: 6px 6px;
+    }
+}
+
 @media (max-width: 840px) {
     .control_menu {
         justify-content: space-around;
     }
 }
+
 @media (max-width: 767px) {
     .controll_dropdown {
         background: #2071b1;
         border-radius: 8px;
         text-align: center;
     }
+
     .controll_dropdown:hover {
         transform: unset;
         filter: unset;
     }
+
     .fundo_logo {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .controleTopo {
         justify-content: center;
         flex-direction: column;
         gap: 1rem;
         padding: 10px;
     }
+
     .placeholder1 {
         width: auto;
     }

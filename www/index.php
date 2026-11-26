@@ -137,10 +137,11 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
-<body>
+<body class="padd-body" style="padding-right: 0px !important;">
 
   <header>
     <?php
+    include "popup.php";
     include "cookie/cookie.php";
     include "partes/01-topo/01-topo_acessibilidade.php";
     include "partes/02-brasao_menu/02-brasao_menu.php";

@@ -1,0 +1,27 @@
+.controller-horario {
+    background-color: #2071B1;
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffffff63;
+}
+
+.tituloHorario {
+    color: #ffff;
+    font: normal normal 800 14px/18px Montserrat;
+    margin: 0;
+    padding: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.tituloHorario:hover {
+    transform: scale(1.1);
+}
+
+.tituloHorario:active {
+    transform: scale(0.95);
+    transition: 0s;
+}

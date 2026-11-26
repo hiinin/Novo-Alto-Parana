@@ -46,7 +46,12 @@
                                         <p id="t_Obras3" class="txt_obras acessibilidade uk-h4 uk-margin-remove"><?= resumo_artigo($destaque['descricao'], 150) ?></p>
 
                                         <p class="fim_obra">
-                                            Previs&atilde;o: <?= date('d/m/Y', strtotime($destaque['data_fim'])); ?>
+                                            <?php if (!empty($destaque['data_fim'])) { ?>
+                                                Previs&atilde;o: <?= date('d/m/Y', strtotime($destaque['data_fim'])); ?>
+                                            <?php } else { ?>
+                                                    Previs&atilde;o: N&atilde;o Foi Informado.    
+                                            <?php } ?>
+
                                         </p>
                                     </div>
 

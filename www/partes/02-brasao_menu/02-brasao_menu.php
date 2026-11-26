@@ -10,7 +10,27 @@
                         <input type="text" class="acessibilidade  placeholder1" id="ipt-pesquisa" placeholder="Busca Site..." name="busca" value="<?= $_POST['ipt-pesquisa'] ?>" title="Campo de pesquisa">
                     </div>
                 </form>
-                <a href="<?= $CAMINHO ?>/index.php?sessao=b054603368ctb0" class="link_fale acessibilidade">Fale Conosco</a>
+                <div class="dropdown dropdown_acesso_rapido">
+                    <a href="#" class="link_fale acessibilidade dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span>Acesso R&aacute;pido</span>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu drop_acesso_rapido">
+                        <li><a class="acessibilidade" href="#" data-toggle="modal" data-target="#diario">Di&aacute;rio Oficial</a></li>
+                        <li><a class="acessibilidade" href="https://www.ingadigital.com.br/transparencia/?id_cliente=86" target="_blank">Portal da Transpar&ecirc;ncia</a></li>
+                        <li><a class="acessibilidade" href="http://www.ingadigital.com.br/transparencia/?id_cliente=86&sessao=b054603368ljb0&ntipo" target="_blank">Legisla&ccedil;&atilde;o</a></li>
+                        <li><a class="acessibilidade" href="http://www.ingadigital.com.br/transparencia/index.php?id_cliente=86&sessao=9223980d0f3m92" target="_blank">Licita&ccedil;&otilde;es</a></li>
+                        <li><a class="acessibilidade" href="<?= $CAMINHO ?>/index.php?sessao=b054603368nfb0">Nota Fiscal Eletr&ocirc;nica</a></li>
+                        <li><a class="acessibilidade" href="http://www.altoparana.pr.gov.br/index.php?sessao=b054603368ixb0&id=3046" target="_blank">Tributos WEB</a></li>
+                        <li><a class="acessibilidade" href="#" data-toggle="modal" data-target="#concurso-pss">Concursos / PSS</a></li>
+                        <li><a class="acessibilidade" href="https://e-gov.betha.com.br/transparencia/01037-140/main.faces" target="_blank">Portal do Cidad&atilde;o</a></li>
+                        <li><a class="acessibilidade" href="http://www.ingadigital.com.br/transparencia/index.php?sessao=8cf5ffc8babf8c" target="_blank">Bolsa Fam&iacute;lia</a></li>
+                        <li><a class="acessibilidade" href="<?= $CAMINHO ?>index.php?sessao=b054603368ixb0&id=1211">Requerimentos</a></li>
+                        <li><a class="acessibilidade" href="<?= $CAMINHO ?>index.php?sessao=b054603368hlb0">Hospitais e Postos</a></li>
+                        <li><a class="acessibilidade" href="<?= $CAMINHO ?>index.php?sessao=b054603368elb0">Institui&ccedil;&otilde;es de Ensino</a></li>
+                        <li><a class="acessibilidade" href="https://minhafolha.cloud.betha.com.br/" target="_blank">Holerite Online</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -130,6 +150,61 @@
                         </li>
                     </ul>
                 </li>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="diario" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">Di&aacute;rio Oficial</h2>
+            </div>
+            <div class="modal-body">
+                <p><a href="http://www.ingadigital.com.br/transparencia/?id_cliente=86&sessao=b054603368d1b0" target="_blank">Prefeitura</a></p>
+                <p><a href="<?= $CAMINHO ?>index.php?sessao=22baaf0c00d122" target="_blank">C&acirc;mara</a></p>
+                <p></p>
+                <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Fundo de Previd&ecirc;ncia
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+                        <a href="https://www.ingadigital.com.br/transparencia/index.php?sessao=7b8a74deb2d17b&nc=86&id_categoria=5538" target="_blank">
+                            <h1>ano / 2024</h1>
+                        </a>
+                        <hr>
+                        <br>
+                        <a href="https://www.ingadigital.com.br/transparencia/index.php?sessao=7b8a74deb2d17b&nc=86&id_categoria=5772" target="_blank">
+                            <h1>ano / 2025</h1>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="concurso-pss" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h1 class="modal-title">Concursos / PSS</h1>
+            </div>
+            <div class="modal-body">
+                <p><a href="https://www.ingadigital.com.br/transparencia/index.php?id_cliente=86&sessao=08fdc1d0f2cs08" target="_blank">Concursos</a></p>
+                <p><a href="https://www.ingadigital.com.br/transparencia/index.php?id_cliente=86&sessao=32c4d60e88c832" target="_blank">Processo Seletivo Simplificado</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>

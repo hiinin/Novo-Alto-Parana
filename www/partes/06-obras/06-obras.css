@@ -9,6 +9,10 @@
     color: #000;
 }
 
+.padd-body {
+    padding-right: 0px !important;
+}
+
 #t_Obras1 {
     color: #000;
     transition: all 0.5s;

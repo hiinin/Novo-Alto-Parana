@@ -16,7 +16,7 @@ include "query_noticias.php";
                         <?php foreach ($vetor_destaque as $key => $destaque) { ?>
                             <a style="text-decoration: none;" href="<?= $destaque['link'] ?>">
                                 <? if ($destaque['foto'] == '') { ?>
-                                    <img src="<?= $caminho ?>/assets/images/sem-foto.jpg">
+                                <img src="<?= $caminho ?>/assets/images/sem-foto.jpg">
                                 <? } ?>
                                 <img class="img_destaque" src="<?= $destaque['foto'] ?>" alt="<?= $destaque['titulo'] ?>">
 
@@ -60,7 +60,7 @@ include "query_noticias.php";
                         <a style="text-decoration: none;" class="link_ultimas t-<?= $key ?>" href="<?= $ultimas['link'] ?>">
                             <div class="control_img_ultimas">
                                 <? if ($ultimas['foto'] == '') { ?>
-                                    <img class="imgUltimas t-<?= $key ?> " src="<?= $CAMINHO ?>/assets/images/sem-foto.jpg">
+                                <img class="imgUltimas t-<?= $key ?> " src="<?= $CAMINHO ?>/assets/images/sem-foto.jpg">
                                 <? } ?>
                                 <img class="imgUltimas t-<?= $key ?> " src="<?= $ultimas['foto'] ?>" alt="<?= $ultimas['titulo'] ?>">
                             </div>
@@ -107,7 +107,7 @@ include "query_noticias.php";
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="cidadao">
                         <div class="control_icones">
-                            <a href="" class="link_icon">
+                            <a data-toggle="modal" data-target="#diario" class="link_icon">
                                 <img src="<?= $CAMINHO ?>/images/diario.svg" alt="Diario" class="img_icon">
                                 <p class="t_icon acessibilidade">Di&aacute;rio<br>Oficial</p>
                             </a>
@@ -181,10 +181,46 @@ include "query_noticias.php";
                             </a>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="servidor">SER</div>
+                    <div role="tabpanel" class="tab-pane" id="servidor">Servidor</div>
                     <div role="tabpanel" class="tab-pane" id="empresa">Empresa</div>
                 </div>
 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="diario" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">Di&aacute;rio Oficial</h2>
+            </div>
+            <div class="modal-body">
+                <p><a href="http://www.ingadigital.com.br/transparencia/?id_cliente=86&sessao=b054603368d1b0" target="_blank">Prefeitura</a></p>
+                <p><a href="<? $CAMINHO ?>index.php?sessao=22baaf0c00d122" target="_blank">C&acirc;mara</a></p>
+                <p></p>
+                <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Fundo de Previd&ecirc;ncia
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+                        <a href="https://www.ingadigital.com.br/transparencia/index.php?sessao=7b8a74deb2d17b&nc=86&id_categoria=5538" target="_blank">
+                            <h1>ano / 2024</h1>
+                        </a>
+                        <hr>
+                        <br>
+                        <a href="https://www.ingadigital.com.br/transparencia/index.php?sessao=7b8a74deb2d17b&nc=86&id_categoria=5772" target="_blank">
+                            <h1>ano / 2025</h1>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>

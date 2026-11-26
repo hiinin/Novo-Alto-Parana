@@ -1,0 +1,13 @@
+div, .navbar-nav > li > .dropdown-menu, .dropdown-menu>li>a:hover, .btn, .btn-default, .form, .form-control, .fa, .fa-home, .panel, .conselho-projeto, .legislacao-busca, .gastos-rio-bom, .list-group-item{background-color: #000 !important;color: white !important;}
+section p, span, figcaption, ul>li>a, ul>li>a>ul>li>a, .acessibilidade, h1, h2, h3, h4, h5, h6, a, .text-info, p, label, strong{color: #fff !important}
+.ul-submenu-responsivo {
+  color: white !important;
+  background-color: black !important;
+}
+.panel-default>.panel-heading {
+  color: white !important;
+}
+
+.div-noticias .div-button a{
+  background: #000 !important;
+}

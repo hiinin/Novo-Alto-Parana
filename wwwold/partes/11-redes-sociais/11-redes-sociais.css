@@ -1,0 +1,53 @@
+.controller-redes {
+    background-color: #2071B1;
+}
+
+.container-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ffffff63;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0 0 0;
+}
+
+.titulo-redes {
+    font-size: 42px;
+    color: white;
+    margin: 0;
+}
+
+.icons-redes {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.icones-redes-sociais img {
+    width: 23px;
+    height: 23px;
+    transition: 0.3s ease-in-out;
+}
+
+.icones-redes-sociais img:hover {
+    transform: scale(1.2);
+}
+
+.icones-redes-sociais img:active {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 540px) {
+    .icons-redes {
+        gap: 3rem;
+    }
+}

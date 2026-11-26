@@ -70,7 +70,7 @@
 
                         ?>
                             <li class="li-submenu">
-                                <a class="a-submenu" id="sub_menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico['link'] . $complemento); ?>"><?= utf8_encode($servico['menu']); ?></a>
+                                <a class="a-submenu" id="sub_menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico['link'] . $complemento); ?>"><?= $servico['menu']; ?></a>
                             </li>
                             <li role="separator" class="divider"></li>
 
@@ -81,7 +81,7 @@
                             array_push($servicos, $servico2);
                         ?>
                             <li class="li-submenu">
-                                <a class="a-submenu" id="sub_menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico2['link'] . $complemento); ?>"><?= utf8_encode($servico2['menu']); ?></a>
+                                <a class="a-submenu" id="sub_menu" href="<?= $CAMINHO ?>/index.php?sessao=<?= verifica($sequencia . $servico2['link'] . $complemento); ?>"><?= $servico2['menu']; ?></a>
                             </li>
                             <li role="separator" class="divider"></li>
 
@@ -92,7 +92,7 @@
 
                         ?>
                             <li class="li-submenu">
-                                <a class="a-submenu" id="sub_menu" href="<?= $servico['link'] ?>" target="_blank"> <?= utf8_encode($servico['menu']); ?></a>
+                                <a class="a-submenu" id="sub_menu" href="<?= $servico['link'] ?>" target="_blank"> <?= $servico['menu']; ?></a>
                             </li>
                             <li role="separator" class="divider"></li>
 
